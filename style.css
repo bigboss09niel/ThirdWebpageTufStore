@@ -373,9 +373,30 @@ h3 {
   padding: 15px 0 25px;
   color: #fff;
 }
-.about-col li {
-  padding: 15px 0 25px;
+.about li {
+  padding: 15px 0 1px;
   color: #fff;
+}
+.about h1 {
+  padding-top: 0;
+  color: #ffae00;
+  text-align: center;
+}
+.about {
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
+.about-row {
+  margin-top: 5%;
+}
+.about p {
+  color: #fff;
+}
+.about li {
+  color: #ffae00;
+}
+.about-us .about-row .about li{
+  margin-left: 25%;
 }
 .red-btn {
   border: 1px solid #ffae00;
