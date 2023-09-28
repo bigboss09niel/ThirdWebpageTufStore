@@ -373,10 +373,6 @@ h3 {
   padding: 15px 0 25px;
   color: #fff;
 }
-.about li {
-  padding: 15px 0 1px;
-  color: #fff;
-}
 .about h1 {
   padding-top: 0;
   color: #ffae00;
@@ -393,6 +389,7 @@ h3 {
   color: #fff;
 }
 .about li {
+  padding: 15px 0 1px;
   color: #ffae00;
 }
 .about-us .about-row .about li{
