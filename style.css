@@ -373,6 +373,10 @@ h3 {
   padding: 15px 0 25px;
   color: #fff;
 }
+.about-col li {
+  padding: 15px 0 25px;
+  color: #fff;
+}
 .red-btn {
   border: 1px solid #ffae00;
   background: transparent;
