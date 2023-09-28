@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+     <title>The Ultimate Force</title>
+     <link rel="shortcut icon" type="favicon" href="TUF.ico"/>
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/fontawesome.min.css">
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&family=Shippori+Antique+B1&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/4c1503088a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="product.html">PRODUCT</a></li>
+                    <li><a href="site.html">SITE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Site</h1>
+    </section>
+</body>
+
+<!------ Site us content ------>
+
+<body style="background-color: black;">
+    <section class="site">
+
+        <div class="row">
+            <div class="site-col">
+                <h1>ASUS</h1>
+                <p>ASUS is passionate about technology and driven by innovation. We dream, we dare and we strive to create an effortless and joyful digital life for everyone. We're always in search of incredible ideas and experiences, and we aspire to deliver the incredible in everything we do.</p>
+                <a href="https://www.asus.com/ph/" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="site-col">
+                <img src="images/asus.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="site-col">
+                <h1>ROG</h1>
+                <p>(Republic Of Gamers) A brand of desktop and laptop hardware from Asus that is geared toward the gamer. The ROG brand was introduced in 2006.</p>
+                <a href="https://rog.asus.com/ph/" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="site-col">
+                <img src="images/rog.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="site-col">
+                <h1>TUF</h1>
+                <p>TUF stands for The Ultimate Force. With an Asus ROG or TUF laptop, you're ready to play your favorite games.</p>
+                <a href="https://www.asus.com/campaign/tuf-gaming/us/?fbclid=IwAR36mqm-c6HxhZYopGph-yWQ9zFxzYTX7JH8Y129B4zD6xGyLVWrTIHe50M" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="site-col">
+                <img src="images/tuf.png">
+            </div>
+        </div>
+
+    </section>  
+</body>
+
+<!------ Footer ------>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <div class="icons">
+            <a href="https://www.facebook.com/ASUSph/?brand_redir=115494032177"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/asus/"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/ASUS"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com/c/ASUS"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p><i class="far fa-copyright"></i>Copyright 2023 by Asus Tuf. All Rights Reserved.</p>
+
+    </section>
+
+<!------ JavaScript for Toggle Menu ------>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

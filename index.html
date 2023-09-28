@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+     <title>The Ultimate Force</title>
+     <link rel="shortcut icon" type="favicon" href="TUF.ico"/>
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/fontawesome.min.css">
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&family=Shippori+Antique+B1&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/4c1503088a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="product.html">PRODUCT</a></li>
+                    <li><a href="site.html">SITE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="text-box">
+        <h1>TUF Gaming Series <br><br> </h1>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <p>Add fun to your life with gaming <br><br><br><br><br> </p>
+        <a href="about.html"class="hero-btn">Visit Us To know More</a>
+    </div>
+    
+    </section>
+</body>
+
+<!------ Video ------>
+
+    <section class="video">
+        <h1>Introducing ASUS TUF Gaming</h1>
+        <div class="row">
+            <div class="video-col">
+                <video src="videos/Introducing ASUS TUF Gaming Series  _ ASUS.mp4" controls></video>
+                <h3><a href="https://www.youtube.com/watch?v=WX2H73uOeq4" class="hero-btn">ASUS TUF Gaming Series</a></h3>
+            </div>
+            <div class="video-col">
+                <video src="videos/2021 ASUS TUF Gaming A15 - Outlast the Competition _ ASUS.mp4" controls></video>
+                <h3><a href="https://www.youtube.com/watch?v=TNnLD6ssU7A" class="hero-btn">ASUS TUF Gaming Laptop</a></h3>
+            </div>
+        </div> 
+    </section>      
+
+<!------ Explore ------>
+
+    <section class="explore">
+        <h1>Explore our Products</h1>
+
+        <div class="row">
+            <div class="explore-col">
+                <img src="images/laptop.png">
+                <h3>TUF Gaming Laptop</h3>
+            </div>
+            <div class="explore-col">
+                <img src="images/motherboard.png">
+                <h3>TUF Gaming Motherboard</h3>
+            </div>
+            <div class="explore-col">
+                <img src="images/monitor.png">
+                <h3>TUF Gaming Monitor</h3>
+            </div>
+        </div>    
+        <div class="row">     
+            <div class="explore-col">
+                <img src="images/keyboard.png">
+                <h3>TUF Gaming Keyboards</h3>
+            </div>   
+            <div class="explore-col">
+                <img src="images/mouse.png">
+                <h3>TUF Gaming Mouse</h3>
+            </div>
+            <div class="explore-col">
+                <img src="images/headset.png">
+                <h3>TUF Gaming Headset</h3>
+            </div>
+        </div>    
+        <div class="row">     
+            <div class="explore-col">
+                <img src="images/case.png">
+                <h3>TUF Gaming Case</h3>
+            </div>
+            <div class="explore-col">
+                <img src="images/router.png">
+                <h3>TUF Gaming Router</h3>
+            </div>    
+            <div class="explore-col">
+                <img src="images/gpu.png">
+                <h3>TUF Gaming Graphics card</h3>
+            </div>
+        </div>
+    
+    </section>
+
+<!------ Hyper ------>
+
+    <body>
+        <section class="hyper">
+            <a href="product.html"class="hero-btn">For more Products</a>
+        </section>  
+    </body>
+
+<!------ Story ------>
+
+    <section class="story">
+        <h1>TUF Story</h1><br>
+        <p>Technology never sleeps, nor should the action. For those keen on winning power, the The Ultimate Force awaits. Driven by relentless innovation, TUF is committed to producing out-of-this-world experiences for gamers and enthusiasts everywhere.</p>
+
+    </section>
+
+<!------ Call To Action ------>
+
+    <section class="cta">
+        <h1>For more Information</h1>
+        <a href="contact.html" class="hero-btn">CONTACT US</a>
+    </section>
+
+<!------ Footer ------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <div class="icons">
+        <a href="https://www.facebook.com/ASUSph/?brand_redir=115494032177"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/asus/"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/ASUS"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.youtube.com/c/ASUS"><i class="fab fa-youtube"></i></a>
+    </div>
+    <p><i class="far fa-copyright"></i>Copyright 2023 by Asus Tuf. All Rights Reserved.</p>
+
+</section>
+
+<!------ JavaScript for Toggle Menu ------>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

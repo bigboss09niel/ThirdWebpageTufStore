@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+     <title>The Ultimate Force</title>
+     <link rel="shortcut icon" type="favicon" href="TUF.ico"/>
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/fontawesome.min.css">
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&family=Shippori+Antique+B1&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/4c1503088a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="product.html">PRODUCT</a></li>
+                    <li><a href="site.html">SITE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Contact Us</h1>
+    </section>
+
+<!------ Contact us content ------>
+
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6715240.160673923!2d119.93128861142637!3d12.22646585965044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x324053215f87de63%3A0x784790ef7a29da57!2sPhilippines!5e0!3m2!1sen!2sph!4v1637942492338!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Philippines</h5>
+                        <p>481 ALABANG ZAPOTE ROAD,<br>
+                            ALMANZA 1 LAS PIÑAS CITY</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>(02)-82903176</h5>
+                        <p>Monday - Friday, 9:30 AM - 4:00 PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>onlineservice@asus.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+    <div class="contact-col">
+
+        <form action="form-handler.php" method="post">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="email" name="email" placeholder="Enter email address" required>
+            <input type="text" name="subject" placeholder="Enter your subject" required>
+            <textarea rows="8" name="message" placeholder="Message" required></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+        </form>
+
+    </div>
+
+        </div>
+
+    </section>
+
+<!------ Footer ------>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <div class="icons">
+            <a href="https://www.facebook.com/ASUSph/?brand_redir=115494032177"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/asus/"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/ASUS"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com/c/ASUS"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p><i class="far fa-copyright"></i>Copyright 2023 by Asus Tuf. All Rights Reserved.</p>
+
+    </section>
+
+<!------ JavaScript for Toggle Menu ------>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

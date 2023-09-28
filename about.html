@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+     <title>The Ultimate Force</title>
+     <link rel="shortcut icon" type="favicon" href="TUF.ico"/>
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/fontawesome.min.css">
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&family=Shippori+Antique+B1&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/4c1503088a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="product.html">PRODUCT</a></li>
+                    <li><a href="site.html">SITE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+    </section>
+
+<!------ About us content ------>
+
+<body style="background-color: black;">
+    <section class="about-us">
+    
+        <div class="row">
+            <div class="about-col">
+                <h1>TUF Gaming Alliance</h1>
+                <p>TUF Gaming Alliance is the marque of collaboration between ASUS and major
+                    PC-component brands. A wide range of compliant parts, from PC cases and
+                    power supplies to CPU coolers and memory kits, guarantee both
+                    compatibility and aesthetic harmony. We’re also continually increasing
+                    our partnerships to make the TUF Gaming Alliance ever stronger, and 
+                    require that components carrying the marque are tested to standards that
+                    are higher than the industry standards — for better compatibility,
+                    stability and durability.</p>
+                <a href="product.html" class="hero-btn red-btn">Explore our product</a>
+            </div>
+            <div class="about-col">
+                <img src="images/alliance.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="about-col">
+                <h1>Mission</h1>
+                <p>We offer high-performance hardware that's affordable, making gaming
+                    more accessible. They strive to create durable products that can
+                    withstand heavy usage.</p>
+            </div>
+            <div class="about-col">
+                <h1>Vision</h1>
+                <p>To be a leading brand in the gaming industry, known for reliability
+                    and exceptional performance. We aim to set new standards for
+                    durability in the technical world.</p>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+<!------ Brand ------>
+
+    <section class="brand">
+        <h1>Brand Collaborations</h1>
+
+        <div class="row">
+            <div class="brand-col">
+                <img src="images/akracing.png">
+            </div>
+            <div class="brand-col">
+                <img src="images/antec.png">
+            </div>
+            <div class="brand-col">
+                <img src="images/apacer.png">
+            </div>
+            <div class="brand-col">
+                <img src="images/ballistix.png">
+            </div>
+        </div>
+        <div class="row">    
+            <div class="brand-col">
+                <img src="images/cooler-master.png">
+            </div>
+            <div class="brand-col">
+                <img src="images/corsair.png">
+            </div>
+            <div class="brand-col">
+                <img src="images/deep-cool.png">
+            </div>
+            <div class="brand-col">
+                <img src="images/enrmax.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="brand-col">
+                <img src="images/fsp.png">
+            </div>
+            <div class="brand-col">
+                <img src="images/geil.png">
+            </div>
+            <div class="brand-col">
+                <img src="images/gskill.png">
+            </div>
+            <div class="brand-col">
+                <img src="images/id-cooling.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="brand-col">
+                <img src="images/scythe.png">
+            </div>
+            <div class="brand-col">
+                <img src="images/seasonic.png">
+            </div>
+            <div class="brand-col">
+                <img src="images/silver-stone.png">
+            </div>
+            <div class="brand-col">
+                <img src="images/team-group.png">
+            </div>
+        </div>    
+        <div class="row">
+            <div class="brand-col">
+                <img src="images/t-force.png">
+            </div>
+            <div class="brand-col">
+                <img src="images/thermal-right.png">
+            </div>
+             <div class="brand-col">
+                <img src="images/xpg.png">
+            </div>
+            <div class="brand-col">
+                <img src="images/asus.png">
+            </div>
+        </div>
+        
+    </section>
+
+<!------ Footer ------>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <div class="icons">
+            <a href="https://www.facebook.com/ASUSph/?brand_redir=115494032177"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/asus/"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/ASUS"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com/c/ASUS"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p><i class="far fa-copyright"></i>Copyright 2023 by Asus Tuf. All Rights Reserved.</p>
+
+    </section>
+
+<!------ JavaScript for Toggle Menu ------>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
